@@ -1,6 +1,6 @@
 // return the index of first occurrence of given string in a string
 
-function kmp(haystack, neddle) {
+const kmp = (haystack, neddle) => {
     let lps = [];
     lps[0] = 0;
     let prevPointer = 0;
